@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8443B6AE2366BC39008548F0 /* SwiftWebUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8443B6AD2366BC39008548F0 /* SwiftWebUI */; };
 		84BC759B2366B0F6004F1202 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC759A2366B0F6004F1202 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8443B6AE2366BC39008548F0 /* SwiftWebUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +43,8 @@
 		84BC758E2366B0F6004F1202 = {
 			isa = PBXGroup;
 			children = (
-				84BC75992366B0F6004F1202 /* SwiftWebUIDemo */,
 				84BC75982366B0F6004F1202 /* Products */,
+				84BC75992366B0F6004F1202 /* SwiftWebUIDemo */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +80,9 @@
 			dependencies = (
 			);
 			name = SwiftWebUIDemo;
+			packageProductDependencies = (
+				8443B6AD2366BC39008548F0 /* SwiftWebUI */,
+			);
 			productName = SwiftWebUIDemo;
 			productReference = 84BC75972366B0F6004F1202 /* SwiftWebUIDemo */;
 			productType = "com.apple.product-type.tool";
@@ -106,6 +111,9 @@
 				Base,
 			);
 			mainGroup = 84BC758E2366B0F6004F1202;
+			packageReferences = (
+				8443B6AC2366BC39008548F0 /* XCRemoteSwiftPackageReference "SwiftWebUI" */,
+			);
 			productRefGroup = 84BC75982366B0F6004F1202 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -280,6 +288,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8443B6AC2366BC39008548F0 /* XCRemoteSwiftPackageReference "SwiftWebUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftWebUI/SwiftWebUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8443B6AD2366BC39008548F0 /* SwiftWebUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8443B6AC2366BC39008548F0 /* XCRemoteSwiftPackageReference "SwiftWebUI" */;
+			productName = SwiftWebUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 84BC758F2366B0F6004F1202 /* Project object */;
 }
