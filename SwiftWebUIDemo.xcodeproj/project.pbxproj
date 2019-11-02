@@ -8,7 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8443B6AE2366BC39008548F0 /* SwiftWebUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8443B6AD2366BC39008548F0 /* SwiftWebUI */; };
+		84657370236D4D9C00BD4229 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465736F236D4D9C00BD4229 /* MainPage.swift */; };
+		84657372236D4FB600BD4229 /* OrderHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84657371236D4FB600BD4229 /* OrderHistory.swift */; };
+		84657374236D530200BD4229 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84657373236D530200BD4229 /* Common.swift */; };
+		84657376236D554F00BD4229 /* OrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84657375236D554F00BD4229 /* OrderPage.swift */; };
+		84657378236D5CF200BD4229 /* OrderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84657377236D5CF200BD4229 /* OrderDetail.swift */; };
 		84BC759B2366B0F6004F1202 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC759A2366B0F6004F1202 /* main.swift */; };
+		84BCB003236C273E00470628 /* OrderForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BCB002236C273E00470628 /* OrderForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +30,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8465736F236D4D9C00BD4229 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		84657371236D4FB600BD4229 /* OrderHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistory.swift; sourceTree = "<group>"; };
+		84657373236D530200BD4229 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		84657375236D554F00BD4229 /* OrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPage.swift; sourceTree = "<group>"; };
+		84657377236D5CF200BD4229 /* OrderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetail.swift; sourceTree = "<group>"; };
 		84BC75972366B0F6004F1202 /* SwiftWebUIDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftWebUIDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BC759A2366B0F6004F1202 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		84BCB002236C273E00470628 /* OrderForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 			isa = PBXGroup;
 			children = (
 				84BC759A2366B0F6004F1202 /* main.swift */,
+				84BCB002236C273E00470628 /* OrderForm.swift */,
+				8465736F236D4D9C00BD4229 /* MainPage.swift */,
+				84657371236D4FB600BD4229 /* OrderHistory.swift */,
+				84657373236D530200BD4229 /* Common.swift */,
+				84657375236D554F00BD4229 /* OrderPage.swift */,
+				84657377236D5CF200BD4229 /* OrderDetail.swift */,
 			);
 			path = SwiftWebUIDemo;
 			sourceTree = "<group>";
@@ -128,7 +146,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84657378236D5CF200BD4229 /* OrderDetail.swift in Sources */,
+				84BCB003236C273E00470628 /* OrderForm.swift in Sources */,
+				84657376236D554F00BD4229 /* OrderPage.swift in Sources */,
 				84BC759B2366B0F6004F1202 /* main.swift in Sources */,
+				84657370236D4D9C00BD4229 /* MainPage.swift in Sources */,
+				84657374236D530200BD4229 /* Common.swift in Sources */,
+				84657372236D4FB600BD4229 /* OrderHistory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +209,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -239,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;

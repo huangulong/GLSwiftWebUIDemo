@@ -11,3 +11,4 @@ import SwiftWebUI
 
 print("Hello, World!")
 
+SwiftWebUI.serve(MainPage_SUICards())
